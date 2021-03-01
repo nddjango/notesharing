@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Sharing</title>
+</head>
+
+<body>
+    <center>
+        <form method="POST">
+            {% csrf_token %}
+            <input type="text" placeholder="Enter your first name" name="fname"><br>
+            <input type="text" placeholder="Enter your  last name" name="lname"><br>
+            <button type="submit">sunmit..</button>
+        </form>
+</body>
+
+</html>
